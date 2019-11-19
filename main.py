@@ -1,5 +1,4 @@
 import argparse 
-import api
 
 #faire une commande help
 def analyser_commande():
