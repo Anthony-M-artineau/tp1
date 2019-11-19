@@ -4,6 +4,7 @@ import api
 
 #faire une commande help
 def analyser_commande():
+    """Commande"""
     parser = argparse.ArgumentParser(description='Jeu Quoridor - phase 1')
     parser.add_argument('idul', help='IDUL du joueur.')
     parser.add_argument('-l', '--lister', metavar='', help='Lister les identifiants de vos 20 dernères parties.')
@@ -13,6 +14,7 @@ def analyser_commande():
 
 #afficher un damier en art ascii
 def afficher_damier_ascii():
+
 
 
 #demander à l'utilisateur de spécifier son coup
