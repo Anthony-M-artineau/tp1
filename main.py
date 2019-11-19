@@ -1,5 +1,5 @@
 import argparse 
-
+import api
 
 #faire une commande help
 def analyser_commande():
@@ -14,3 +14,5 @@ def analyser_commande():
         '-l', '--lister', metavar='', help='Lister les identifiants de vos 20 dernères parties.'
         )
     return parser.parse_args()
+print(analyser_commande())
+
