@@ -22,4 +22,5 @@ def retourne_requests(rep, url):
         # la requête s'est déroulée normalement; décoder le JSON
         rep = rep.json()
         return rep
-
+    else:
+        print(f"Le GET sur {urlBase+url} a produit le code d'erreur {rep.status_code}.")
